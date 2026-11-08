@@ -1,0 +1,16 @@
+variable,psi,status
+percent_bc_gt_75,0.0259,stable
+dti,0.0239,stable
+revol_util,0.0211,stable
+acc_open_past_24mths,0.0179,stable
+bc_open_to_buy,0.0119,stable
+mo_sin_old_rev_tl_op,0.0104,stable
+tot_hi_cred_lim,0.008,stable
+purpose,0.0079,stable
+mort_acc,0.0064,stable
+credit_hist_years,0.0063,stable
+home_ownership,0.0038,stable
+mo_sin_rcnt_tl,0.0038,stable
+mths_since_recent_inq,0.0037,stable
+fico_range_low,0.0027,stable
+annual_inc,0.0027,stable

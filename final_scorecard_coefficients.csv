@@ -1,0 +1,16 @@
+,coef,p_value
+const,-1.8874,0.0
+fico_range_low,-0.5312,0.0
+annual_inc,-0.5312,0.0
+bc_open_to_buy,-0.1872,0.0
+tot_hi_cred_lim,-0.3954,0.0
+acc_open_past_24mths,-0.7854,0.0
+dti,-0.6205,0.0
+home_ownership,-0.2855,0.0
+mort_acc,-0.1173,0.003
+percent_bc_gt_75,-0.3923,0.0
+mo_sin_rcnt_tl,-0.3549,0.0
+mths_since_recent_inq,-0.6856,0.0
+mo_sin_old_rev_tl_op,-0.3003,0.0
+purpose,-0.7801,0.0
+revol_util,-0.3278,0.0

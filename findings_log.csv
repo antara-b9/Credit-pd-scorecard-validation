@@ -1,0 +1,6 @@
+ID,Area,Finding,Evidence,Severity,Recommendation,Owner,Status
+F1,Calibration,Both models under-predict 2015 defaults: 13.5% (scorecard) and 13.7% (XGBoost) vs 14.9% actual.,"Decile table, Cell 5 output",Medium,Recalibrate the intercept on more recent data; monitor calibration each quarter.,Model developer,Open
+F2,Challenger benchmarking,XGBoost improves out-of-time Gini by about 0.020 (0.351 vs 0.331); added complexity is not justified.,Comparison table,Low,Keep the scorecard as the primary model; revisit if the gap widens.,Model developer,Open
+F3,Stability over time,"Challenger Gini falls from 0.376 (development) to 0.351 (2015), indicating some period sensitivity.",Comparison table,Low,Monitor challenger performance if it is ever promoted.,Model developer,Open
+F4,External benchmark,Scorecard trails the lender interest rate by about 0.026 Gini (0.331 vs 0.357).,Comparison table,Low,Informational: the rate uses information outside the 15 variables.,Model developer,Open
+F5,Variable selection,Wrong-sign coefficient on credit_hist_years (+0.406) caused by overlap (correlation 0.85) with mo_sin_old_rev_tl_op; variable removed and the model refitted with no loss of performance (Gini 0.316 / 0.331 unchanged).,"Cells 9, 14, 15",Low,Closed during development; keep correlation screening in the build procedure.,Model developer,Closed
