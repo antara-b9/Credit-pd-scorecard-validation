@@ -49,6 +49,12 @@ independent reviewer would. The aim is to show how a credit scorecard is built a
 
 Full log: `findings_log.csv`.
 
+## How to reproduce
+1. Download "All Lending Club loan data" from Kaggle (wordsforthewise). Use accepted_2007_to_2018Q4.csv only. Check the dataset's terms on its Kaggle page.
+2. Place the file in a local data folder (it is not included in this repository because of its size).
+3. Install: pandas, duckdb, pyarrow, scikit-learn, statsmodels, xgboost, shap, matplotlib.
+4. Open the notebook and run the sections in order.
+
 ## Limitations
 - Public data; FICO scores are all 660 or above; no information on the lender's own underwriting.
 - The model ranks well but understates the level of risk in 2015 (default rates rose).
